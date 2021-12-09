@@ -13,6 +13,7 @@
             <th>Name</th>
             <th>Deadline</th>
             <th style="display: none;">Completed?</th>
+            <th>Grade</th>
             <th></th>
           </thead>
           <tbody v-cloak>
@@ -43,6 +44,12 @@
               <td style="display: none;">
                 <input class="on-fly-input"
                        v-model="to_do_list[index].completed"
+                       :style="icons_list[index].style"
+                />
+              </td>
+              <td>
+                <input class="on-fly-input"
+                       v-model="to_do_list[index].grade"
                        :style="icons_list[index].style"
                 />
               </td>

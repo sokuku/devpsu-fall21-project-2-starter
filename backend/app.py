@@ -13,16 +13,21 @@ TO_DO_LIST = [
         'name': 'DevPSU Project 1',
         'deadline': '10-19-2021',
         'completed': True,
+        'grade': 90,
     },
     {
         'name': 'DevPSU Project 2',
         'deadline': '11-9-2021',
         'completed': False,
+        'grade': 95,
+
     },
     {
         'name': 'CMPSC Final',
         'deadline': '12-15-2021',
         'completed': False,
+        'grade': 77,
+
     }
 ]
 
